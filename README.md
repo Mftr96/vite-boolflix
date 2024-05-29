@@ -82,3 +82,9 @@ cosa mi serve:
 -creare method che faccia chiamata axios 
 -richiamare la funzione al click del bottone o al premere di invio 
 -----
+milestone 2:
+richiamare in pagina la bandiera relativa alla lingua selezionata 
+cosa serve:
+-asset foto bandiera
+-url foto bandiera
+ cosa fare:
