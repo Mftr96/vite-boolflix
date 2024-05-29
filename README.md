@@ -53,3 +53,18 @@ esecuzione
 milestone 0 : apparecchiare la tavola, ovvero 
 -creazione cartella con file store nella cartella data 
 -registrazione sito ed ottenimento chiave API
+------------------
+milestone 1:
+creazione struttura base con input search e  button , con il quale andiamo poi a visualizzare in pagina:
+
+Titolo
+Titolo Originale
+Lingua
+Voto
+
+
+cosa mi serve:
+-input search
+-button 
+-creare method che faccia chiamata axios 
+-richiamare la funzione al click del bottone o al premere di invio 
