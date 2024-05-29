@@ -1,7 +1,23 @@
 <!-- qui javascript -->
-<script setup>
+<script>
+import axios from 'axios';
+import iMieiDati from './data/store.js';
+export default{
+    data (){
+        iMieiDati
+        
+    },
+    methods:{
+
+    },
+    mounted(){
+        console.log("app montata")
+     
+    }
+
+}
+
 </script>
-<!-- qui HTML -->
 <template>
   
 </template>
