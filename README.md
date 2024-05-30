@@ -85,6 +85,6 @@ cosa mi serve:
 milestone 2:
 richiamare in pagina la bandiera relativa alla lingua selezionata 
 cosa serve:
--asset foto bandiera
+-asset foto bandiera(prendere foto svg perchè sono più comode da sistemare in caso)
 -url foto bandiera
  cosa fare:
