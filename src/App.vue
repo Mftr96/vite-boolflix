@@ -35,22 +35,22 @@ export default{
             console.log(this.dataSearch)
         })
         console.log(this.iMieiDati.query)
-        console.log(this.pathFlag)
 
-        }
+        },
+        getFlag(element){
+         if(element.original_language=="en"){
+             return iMieiDati.urlFlag[0]
+             
+         }
+         else if(element.original_language=="it"){
+             return iMieiDati.urlFlag[1]
+            
+         } 
+     },
 
     },
     //milestone 2:creo funzione che controlla il dato per mettere il percorso della bandiera 
-     getFlag(element){
-         if(element.original_language=="eng"){
-             this.pathFlag=iMieiDati.urlFlag[0]
-             console.log(this.pathFlag)
-         }
-         else if(element.original_language=="it"){
-             this.pathFlag=iMieiDati.urlFlag[1]
-             console.log(this.pathFlag)
-         } 
-     },
+    
     mounted(){
         console.log("app montata")
         console.log(this.iMieiDati.query)
@@ -78,7 +78,7 @@ export default{
             <p>{{ element.name }}</p>
             <p>{{ element.original_language }}</p>
             <p>{{ element.vote_average }}</p>
-            <img :src="this.getFlag(element)" alt="">
+            <img :src="getFlag(element)" alt="">
         </div>
     </div>
   
@@ -95,6 +95,7 @@ export default{
     }
 
     .card img{
-        width: 50%;
+        width: 200px;
+        height: 200px;
     }
 </style>
