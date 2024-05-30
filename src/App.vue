@@ -21,6 +21,8 @@ export default{
          },
          //dato che contiene chiamata API
          dataSearch:{},
+         //dato d'appoggio per il percorso della bandiera
+         pathFlag:"",
        }
         
     },
@@ -33,9 +35,22 @@ export default{
             console.log(this.dataSearch)
         })
         console.log(this.iMieiDati.query)
+        console.log(this.pathFlag)
+
         }
 
     },
+    //milestone 2:creo funzione che controlla il dato per mettere il percorso della bandiera 
+     getFlag(element){
+         if(element.original_language=="eng"){
+             this.pathFlag=iMieiDati.urlFlag[0]
+             console.log(this.pathFlag)
+         }
+         else if(element.original_language=="it"){
+             this.pathFlag=iMieiDati.urlFlag[1]
+             console.log(this.pathFlag)
+         } 
+     },
     mounted(){
         console.log("app montata")
         console.log(this.iMieiDati.query)
@@ -53,7 +68,7 @@ export default{
         <!-- milestone 1: gestico click che richiama la funzione -->
         <button @click="getRicerca()">
             <i class="fa-solid fa-magnifying-glass"></i>
-            Cerca
+            <span>cerca</span>
         </button>
     </div>
     <!-- nel container ci metto i dati relativi alla ricerca effettuata -->
@@ -63,6 +78,7 @@ export default{
             <p>{{ element.name }}</p>
             <p>{{ element.original_language }}</p>
             <p>{{ element.vote_average }}</p>
+            <img src="" alt="">
         </div>
     </div>
   
@@ -75,5 +91,6 @@ export default{
         border: 1px solid black;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 </style>

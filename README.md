@@ -1,3 +1,6 @@
+
+https://docs.google.com/document/d/1JBwSbzVo88GBKKUwNTx6fQe7RetT_uw_PTxtGgoQPWI/edit
+
 In questo esercizio iniziamo a replicare la logica che sta dietro a tantissimi siti che permettono la visione di film e telefilm.
 Per fare questo, come fanno siti molto più rinomati, utilizzeremo un API che ci permette di avere un insieme di risultati congrui alla nostra ricerca.
 
@@ -83,8 +86,11 @@ cosa mi serve:
 -richiamare la funzione al click del bottone o al premere di invio 
 -----
 milestone 2:
-richiamare in pagina la bandiera relativa alla lingua selezionata 
+richiamare in pagina la bandiera relativa alla lingua originale relativa al film o alla serie tv
 cosa serve:
 -asset foto bandiera(prendere foto svg perchè sono più comode da sistemare in caso)
 -url foto bandiera
  cosa fare:
+ l'idea è fare in modo che in base alla lingua riportata visualizzi la corrispettiva bandiera(se è eng, viene fuori bandiera regno unito, se italiano esce fuori  bandiera italiana con le bandiere a disposizione)
+ l'idea è di trovare il modo di usare il dato di element.original_language per andare prendere la relativa immagine 
+ come posso mettere in relazione i due dati?
