@@ -78,7 +78,7 @@ export default{
             <p>{{ element.name }}</p>
             <p>{{ element.original_language }}</p>
             <p>{{ element.vote_average }}</p>
-            <img src="" alt="">
+            <img :src="this.getFlag(element)" alt="">
         </div>
     </div>
   
@@ -92,5 +92,9 @@ export default{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    .card img{
+        width: 50%;
     }
 </style>
