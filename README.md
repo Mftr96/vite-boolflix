@@ -3,12 +3,14 @@
 
 
 in questa repo ho provato a replicare le funzionalità base di Netflix, come la ricerca di film utilizzando l'API fornita da The Movie Database (https://www.themoviedb.org/).
-L'esercizio è stato fornito da Boolean durante il corso di web development che ho frequentato nel 2024 e sebbene l'esercizio sia ancora incompiuto , mi ha dato modo di lavorare sulle mie abilità nel front-end, sia nella gestione di un layout a componenti attraverso l'utilizzo di Vuejs e Vite, sia nel gestire chiamate API esterne dal sito (in questo caso tramite The Movie Database)
+L'esercizio è stato fornito da Boolean durante il corso di web development che ho frequentato nel 2024 e sebbene l'esercizio sia ancora incompiuto , mi ha dato modo di lavorare sulle mie abilità nel front-end, sia nella gestione di un layout a componenti attraverso l'utilizzo di Vuejs e Vite, sia nel gestire chiamate API esterne dal sito (in questo caso tramite The Movie Database).
+Nella sezione Milestones possiamo vedere il percorso da effettuare nella realizzazione del progetto.
 
 # BoolFlix ENG
 Project: Replica of a movie and TV show streaming site
 
 Description In this repository, I have tried to replicate the basic functionalities of Netflix, such as searching for movies using the API provided by The Movie Database (https://www.themoviedb.org/). The exercise was provided by Boolean during the web development course I attended in 2024, and although the exercise is still incomplete, it allowed me to work on my front-end skills, both in managing a component-based layout using Vue.js and Vite, and in handling external API calls from the site (in this case, through The Movie Database).
+In the Milestones section, we can see the roadmap relative to this repo.
 
 
 
